@@ -1,0 +1,40 @@
+doctype html
+html lang='en' role='application'
+  head
+    meta charset='utf-8'
+    meta name='author' content='V'
+    meta name='description' content='figure it out'
+    meta name='viewport' content='width=device-width, initial-scale=1.0'
+
+    title whiteboard
+
+    link rel='stylesheet' href='//fonts.googleapis.com/css?family=Inconsolata:400,700'
+    == stylesheet_tag 'application', expand: true
+
+    script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'
+
+body
+  div id='app'
+    a role='button' id='help-button' data-modal='modal-help' ?
+
+  .modal#modal-help role='dialog'
+    a.close role='button' &times;
+    h2 help
+    dl.inline
+      dt double-click
+      dd add text
+
+      dt ⌘-return / ctrl-enter
+      dd done editing
+
+      dt esc
+      dd done editing; close dialogs
+
+      dt ?
+      dd show help
+
+  script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'
+  script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js'
+  script src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js'
+  /script src='https://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.14/backbone.localStorage-min.js'
+  == javascript_tag 'application', expand: true
