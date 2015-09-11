@@ -17,3 +17,5 @@ IDEAS:
 - basic rich text with key-commands like ⌘B
 - drop-in images
 - move boxes
+
+Demo at [http://hwit.tryptid.com]
