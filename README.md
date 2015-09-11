@@ -18,4 +18,4 @@ IDEAS:
 - drop-in images
 - move boxes
 
-Demo at [http://hwit.tryptid.com]
+Demo at http://hwit.tryptid.com
