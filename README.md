@@ -1,7 +1,7 @@
 hwit
 ====
 
-hwit is a mini whiteboard app.
+hwit is a toy whiteboard app made with [BackboneJS](http://backbonejs.org/), [Sinatra](http://www.sinatrarb.com/) and [Redis](http://redis.io/).
 
 Playing with the idea of dynamic html-editable elements.
 
